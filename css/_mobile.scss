@@ -1,0 +1,818 @@
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+    header {
+        .header_top_ad {
+            .header_top {
+                flex-direction: column;
+                .header_top_left {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+                .header_top_right {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+        .header_content_ad {
+            .header_content {
+                flex-direction: column;
+                .header_content_left {
+                    width: 100%;
+                    margin-bottom: 5px;
+                    .name_logo {
+                        text-align: center;
+                    }
+                }
+                .header_content_center {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    .form {
+                        form {
+                            width: 100%;
+                            input {
+                                margin-left: -5px;
+                            }
+                        }
+                    }
+                }
+                .header_content_right {
+                    width: 100%;
+                    display: flex;
+                    text-align: center;
+                    .phone {
+                        width: 40%;
+                        .icon_phone {
+                            display: none;
+                        }
+                    }
+                    .mail {
+                        width: 60%;
+                        margin-top: 0px;
+                        .icon_mail {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    nav {
+        .nav_mobile {
+            display: block;
+        }
+        .nav {
+            flex-direction: column-reverse;
+            // .nav_hide {
+            //     display: none !important;
+            // }
+            .nav_right {
+                margin-left: 0px;
+                border: 1px solid #e5e5e5;
+                border-radius: 10px;
+                background-color: #83dc36;
+                ul {
+                    li {
+                        padding: 10px;
+                        a {
+                            color: black;
+                        }
+                    }
+                }
+            }
+            .nav_left {
+                width: 100%;
+                // position: relative;
+                .name_nav {
+                    text-align: center;
+                }
+                .ul_nav {
+                    ul {
+                        li {
+                            text-align: center;
+                        }
+                    }
+                }
+                &:hover .name_nav span {
+                    color: black;
+                }
+                &:hover .ul_nav {
+                    position: relative;
+                    margin-bottom: 10px;
+                }
+                .toggle_ul_nav {
+                    display: none !important;
+                }
+            }
+        }
+    }
+    .slide {
+        .slide_product {
+            display: none;
+        }
+    }
+    .transport_ad {
+        .transport {
+            .delivery {
+                .img_delivery {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    .main {
+        flex-direction: column-reverse;
+        main {
+            width: 100%;
+            .products_main {
+                .top_products_main {
+                    flex-direction: column;
+                    .left_top_products_main {
+                        flex-direction: column;
+                        // text-align: center;
+                        .left_left_top_products_main {
+                            width: 100%;
+                            text-align: left;
+                        }
+                        .center_left_top_products_main {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .right_left_top_products_main {
+                            width: 100%;
+                            text-align: right;
+                        }
+                    }
+                    .right_top_products_main {
+                        text-align: right;
+                        .pag_top_products_main {
+                            display: inline-block;
+                        }
+                    }
+                }
+                .body_products_main {
+                    .deital_product_body_products_main {
+                        flex-direction: column;
+                        .item_deital_product_body_products_main {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+            .products_sale {
+                .top_products_sale {
+                    flex-direction: column;
+                    .left_top_products_sale {
+                        text-align: center;
+                    }
+                    .right_top_products_sale {
+                        text-align: center;
+                        .pag_right_top_products_sale {
+                            display: inline-block;
+                        }
+                    }
+                }
+                .body_products_sale {
+                    .deital_products_body_products_sale {
+                        flex-direction: column;
+                        .item_deital_products_body_products_sale {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+            .products_chandeliers {
+                .top_products_chandeliers {
+                    flex-direction: column;
+                    .left_top_products_chandeliers {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .right_top_products_chandeliers {
+                        flex-direction: column;
+                        .right_right_top_products_chandeliers {
+                            text-align: right;
+                        }
+                    }
+                }
+                .body_products_sale {
+                    .deital_products_body_products_sale {
+                        flex-direction: column;
+                        .item_deital_products_body_products_sale {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+            .products_celling {
+                .top_products_chandeliers {
+                    flex-direction: column;
+                    .left_top_products_chandeliers {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .right_top_products_chandeliers {
+                        flex-direction: column;
+                        .right_right_top_products_chandeliers {
+                            text-align: right;
+                        }
+                    }
+                }
+                .body_products_sale {
+                    .deital_products_body_products_sale {
+                        flex-direction: column;
+                        .item_deital_products_body_products_sale {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+        aside {
+            width: 100%;
+            .introduce {
+                .background_introduce {
+                    height: 12% !important;
+                }
+            }
+            .news {
+                .body_news {
+                    .deital_productt_body_news {
+                        .item_deital_product_body_news {
+                            .right_item_deital_product_body_news {
+                                span {
+                                    font-size: 18px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .footer {
+            .footer_top {
+                display: none;
+            }
+            .footer_body {
+                padding-top: 20px;
+                flex-direction: column;
+                .row_1_footer_body {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    .top_row_1_footer_body {
+                        text-align: center;
+                    }
+                    .body_row_1_footer_body {
+                        .diachi {
+                            .left_diachi {
+                                width: auto;
+                            }
+                        }
+                        .sodienthoai {
+                            .left_sodienthoai {
+                                width: auto;
+                            }
+                        }
+                        .email {
+                            .left_email {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+                .row_2_footer_body {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    .top_row_2_footer_body {
+                        text-align: center;
+                    }
+                    .body_row_2_footer_body {
+                        text-align: center;
+                        .ul_body_row_2_footer_body {
+                            display: inline-block;
+                        }
+                    }
+                }
+                .row_3_footer_body {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    .top_row_3_footer_body {
+                        text-align: center;
+                    }
+                    .bot_row_3_footer_body {
+                        text-align: center;
+                    }
+                }
+                .row_4_footer_body {
+                    width: 100%;
+                    .top_row_4_footer_body {
+                        text-align: center;
+                    }
+                    .body_row_4_footer_body {
+                        text-align: center;
+                        .online {
+                            display: inline-block;
+                        }
+                        .number_online {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .footer_bottom {
+                display: none;
+            }
+        }
+    }
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        .header_top_ad {
+            .header_top {
+                flex-direction: column;
+                .header_top_left {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    span {
+                        font-size: 15px;
+                    }
+                }
+                .header_top_right {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+        .header_content_ad {
+            .header_content {
+                flex-direction: column;
+                .header_content_left {
+                    width: 100%;
+                    margin-bottom: 5px;
+                    .name_logo {
+                        text-align: center;
+                    }
+                }
+                .header_content_center {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    .form {
+                        form {
+                            width: 100%;
+                            input {
+                                width: 90%;
+                                margin-left: -5px;
+                                border-radius: 25px;
+                            }
+                        }
+                    }
+                }
+                .header_content_right {
+                    width: 100%;
+                    display: flex;
+                    .phone {
+                        width: 50%;
+                        .icon_phone {
+                            display: block;
+                        }
+                    }
+                    .mail {
+                        width: 60%;
+                        margin-top: 0px;
+                        text-align: right;
+                        .icon_mail {
+                            width: 80%;
+                            display: block;
+                        }
+                        .email_mail {
+                            width: 100%;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    nav {
+        .nav_mobile {
+            display: block;
+        }
+        .nav {
+            flex-direction: column-reverse;
+            // .nav_hide {
+            //     display: none !important;
+            // }
+            .nav_right {
+                margin-left: 0px;
+                ul {
+                    li {
+                        padding: 10px;
+                        margin-right: 0px;
+                        a {
+                            color: black;
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+            .nav_left {
+                width: 100%;
+                // position: relative;
+                .name_nav {
+                    text-align: center;
+                }
+                &:hover .name_nav span {
+                    color: black;
+                }
+                &:hover .ul_nav {
+                    position: relative;
+                    margin-bottom: 10px;
+                }
+                .ul_nav {
+                    ul {
+                        li {
+                            text-align: center;
+                        }
+                    }
+                }
+                .toggle_ul_nav {
+                    display: none !important;
+                }
+            }
+        }
+    }
+    .slide {
+        .slide_product {
+            display: none;
+        }
+    }
+    .transport_ad {
+        .transport {
+            .delivery {
+                .img_delivery {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .main {
+        flex-direction: column-reverse;
+        main {
+            width: 100%;
+            .products_chandeliers {
+                .top_products_chandeliers {
+                    flex-direction: column;
+                    .left_top_products_chandeliers {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .right_top_products_chandeliers {
+                        width: 100%;
+                        .left_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .right_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .products_celling {
+                .top_products_chandeliers {
+                    flex-direction: column;
+                    .left_top_products_chandeliers {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .right_top_products_chandeliers {
+                        width: 100%;
+                        .left_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .right_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        aside {
+            display: flex;
+            width: 100%;
+            .introduce {
+                display: none;
+            }
+            .selling_products {
+                width: 100%;
+                .body_selling_products {
+                    .deital_product_body_selling_products {
+                        .item_product_body_selling_products {
+                            .item_left_product_body_selling_products item_after {
+                                margin-right: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            .discount_products {
+                width: 100%;
+            }
+            .news {
+                width: 100%;
+            }
+        }
+    }
+    footer {
+        .footer {
+            .footer_top {
+                display: none;
+            }
+            .footer_body {
+                padding-top: 20px;
+                width: 100%;
+                flex-wrap: wrap;
+                .row_1_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    .body_row_1_footer_body {
+                        display: inline-block;
+                        padding-left: 30px;
+                        .diachi {
+                            .left_diachi {
+                                width: auto;
+                            }
+                        }
+                        .sodienthoai {
+                            .left_sodienthoai {
+                                width: auto;
+                            }
+                        }
+                        .email {
+                            .left_email {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+                .row_2_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    .body_row_2_footer_body {
+                        display: inline-block;
+                    }
+                }
+                .row_3_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    margin-top: 5px;
+                }
+                .row_4_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    .body_row_4_footer_body {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .footer_bottom {
+            display: none;
+        }
+    }
+}
+
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        .header_content_ad {
+            .header_content {
+                flex-wrap: wrap;
+                width: 100%;
+                .header_content_left {
+                    width: 25%;
+                    .name_logo {
+                        span {
+                            font-size: 23px;
+                        }
+                    }
+                }
+                .header_content_center {
+                    width: 75%;
+                    .form {
+                        form {
+                            width: 70%;
+                        }
+                    }
+                }
+                .header_content_right {
+                    display: flex;
+                    margin-top: 10px;
+                    width: 100%;
+                    .mail {
+                        margin-top: 0px;
+                        width: 100%;
+                        .icon_mail {
+                            width: 50%;
+                            text-align: right;
+                        }
+                        .email_mail {
+                            width: 100%;
+                        }
+                    }
+                    .phone {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    nav {
+        .nav {
+            flex-direction: column-reverse;
+            .nav_right {
+                margin-left: 0px;
+                margin-bottom: 10px;
+                ul {
+                    li {
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .nav_left {
+                width: 100%;
+                // position: relative;
+                .name_nav {
+                    text-align: center;
+                }
+                .ul_nav {
+                    ul {
+                        li {
+                            text-align: center;
+                        }
+                    }
+                }
+                &:hover .name_nav span {
+                    color: black;
+                }
+                &:hover .ul_nav {
+                    position: relative;
+                    margin-bottom: 10px;
+                }
+                .toggle_ul_nav {
+                    display: none !important;
+                }
+            }
+        }
+    }
+    .slide {
+        .slide_product {
+            display: none;
+        }
+    }
+    .main {
+        flex-direction: column-reverse;
+        main {
+            width: 100%;
+            .products_chandeliers {
+                .top_products_chandeliers {
+                    flex-direction: column;
+                    .left_top_products_chandeliers {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .right_top_products_chandeliers {
+                        width: 100%;
+                        .left_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .right_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .products_celling {
+                .top_products_chandeliers {
+                    flex-direction: column;
+                    .left_top_products_chandeliers {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    .right_top_products_chandeliers {
+                        width: 100%;
+                        .left_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .right_right_top_products_chandeliers {
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        aside {
+            display: flex;
+            width: 100%;
+            .introduce {
+                display: none;
+            }
+            .selling_products {
+                width: 100%;
+                .body_selling_products {
+                    .deital_product_body_selling_products {
+                        .item_product_body_selling_products {
+                            .item_left_product_body_selling_products item_after {
+                                margin-right: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            .discount_products {
+                width: 100%;
+            }
+            .news {
+                width: 100%;
+            }
+        }
+    }
+    footer {
+        .footer {
+            .footer_top {
+                display: none;
+            }
+            .footer_body {
+                padding-top: 20px;
+                width: 100%;
+                flex-wrap: wrap;
+                .row_1_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    .body_row_1_footer_body {
+                        display: inline-block;
+                        padding-left: 30px;
+                        .diachi {
+                            .left_diachi {
+                                width: auto;
+                            }
+                        }
+                        .sodienthoai {
+                            .left_sodienthoai {
+                                width: auto;
+                            }
+                        }
+                        .email {
+                            .left_email {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+                .row_2_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    .body_row_2_footer_body {
+                        display: inline-block;
+                    }
+                }
+                .row_3_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    margin-top: 5px;
+                }
+                .row_4_footer_body {
+                    width: 50%;
+                    text-align: center;
+                    .body_row_4_footer_body {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .footer_bottom {
+            display: none;
+        }
+    }
+}
